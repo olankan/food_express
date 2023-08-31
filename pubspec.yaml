@@ -1,0 +1,67 @@
+name: food_express
+description: A new Flutter project.
+
+publish_to: 'none' 
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  font_awesome_flutter: ^10.5.0
+  fluttertoast: ^8.0.9
+  page_transition: "^2.0.9"
+  flutter_spinkit: ^5.2.0
+  shared_preferences: ^2.0.13
+  provider: ^6.0.5
+  bubble_bottom_bar: ^2.0.0
+  flutter_slidable: "^3.0.0"
+  google_maps_flutter: ^2.2.4
+  sliding_up_panel: ^2.0.0+1
+  flutter_polyline_points: ^2.0.0
+  dotted_border: ^2.0.0+3
+  intl_phone_number_input: ^0.7.2
+  platform: ^3.1.0
+  file: ^6.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: "^0.13.1"
+
+flutter_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+
+
+  uses-material-design: true
+
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/category/
+    - assets/products/
+    - assets/restaurant/
+    - assets/slider/
+    - assets/user_profile/
+    - assets/payment/
+    - assets/onboarding/
+
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: fonts/roboto/Roboto-Regular.ttf
+        - asset: fonts/roboto/Roboto-Light.ttf
+          weight: 300
+        - asset: fonts/roboto/Roboto-Medium.ttf
+          weight: 500
